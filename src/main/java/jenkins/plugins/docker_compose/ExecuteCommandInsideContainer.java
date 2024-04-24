@@ -79,7 +79,7 @@ public class ExecuteCommandInsideContainer extends DockerComposeCommandOption {
 		try {
             // Initialize command
             StringBuilder cmd = new StringBuilder();
-            cmd.append("docker-compose");
+            cmd.append("docker compose");
 
             // Set compose file
             String composeFile = dockerComposeStep.getUseCustomDockerComposeFile() ? dockerComposeStep.getDockerComposeFile() : "docker-compose.yml";
