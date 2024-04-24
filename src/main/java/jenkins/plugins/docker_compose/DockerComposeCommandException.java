@@ -3,7 +3,7 @@ package jenkins.plugins.docker_compose;
 /**
  * DockerComposeCommandException
  * 
- * @author <a href="mailto:jgalego1990@gmail.com">João Galego</a>
+ * @author <a href="mailto:olophaayomide@gmail.com">Ayomide Olopha</a>
  */
 public class DockerComposeCommandException extends Exception {
 

@@ -11,8 +11,8 @@ import sys
 
 from compose.cli.main import TopLevelCommand, project_from_options
 
-__author__ = "João Galego <jgalego1990@gmail.com>"
-__copyright__ = "João Galego"
+__author__ = "Ayomide Olopha <olophaayomide@gmail.com>"
+__copyright__ = "Ayomide Olopha"
 __license__ = "mit"
 
 #############

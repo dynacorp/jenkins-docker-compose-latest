@@ -18,7 +18,7 @@ import hudson.model.TaskListener;
 /**
  * StartAllService
  *
- * @author <a href="mailto:jgalego1990@gmail.com">João Galego</a>
+ * @author <a href="mailto:olophaayomide@gmail.com">Ayomide Olopha</a>
  */
 public class StartAllServices extends DockerComposeCommandOption {
 
@@ -45,7 +45,7 @@ public class StartAllServices extends DockerComposeCommandOption {
 		try {
             // Initialize command
             StringBuilder cmd = new StringBuilder();
-            cmd.append("docker-compose");
+            cmd.append("docker compose");
 
             // Set compose file
             String composeFile = dockerComposeStep.getUseCustomDockerComposeFile() ? dockerComposeStep.getDockerComposeFile() : "docker-compose.yml";

@@ -20,7 +20,7 @@ import hudson.util.FormValidation;
 /**
  * StopService
  *
- * @author <a href="mailto:jgalego1990@gmail.com">João Galego</a>
+ * @author <a href="mailto:olophaayomide@gmail.com">Ayomide Olopha</a>
  */
 public class StopService extends DockerComposeCommandOption {
 

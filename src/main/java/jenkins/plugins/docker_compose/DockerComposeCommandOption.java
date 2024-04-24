@@ -13,7 +13,7 @@ import java.io.Serializable;
 /**
  * DockerComposeCommandOption
  * 
- * @author <a href="mailto:jgalego1990@gmail.com">João Galego</a>
+ * @author <a href="mailto:olophaayomide@gmail.com">Ayomide Olopha</a>
  */
 public abstract class DockerComposeCommandOption implements Describable<DockerComposeCommandOption>, Serializable {
 	
